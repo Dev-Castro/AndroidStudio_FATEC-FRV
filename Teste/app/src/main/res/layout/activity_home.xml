@@ -59,15 +59,16 @@
 
   <LinearLayout
       android:layout_width="match_parent"
-      android:layout_height="100dp"
+      android:layout_height="150dp"
       android:orientation="vertical"
       android:gravity="center">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
         android:id="@+id/btn_neon"
-        android:text="turn neon"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button"
+        android:clickable="true" />
 
   </LinearLayout>
 

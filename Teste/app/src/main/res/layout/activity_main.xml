@@ -32,6 +32,4 @@
         android:layout_height="wrap_content"
         android:src="@drawable/hello_world1"/>
 
-
-
 </LinearLayout>
